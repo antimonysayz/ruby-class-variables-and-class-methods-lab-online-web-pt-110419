@@ -19,10 +19,7 @@ class Song
   end
   
   def self.genres
-    
-  end
-  def self.count
-      @@count
+    return @@genres.uniq
   end
   
   def new(name, artist, genre) 
